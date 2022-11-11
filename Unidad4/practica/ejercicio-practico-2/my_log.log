@@ -1,0 +1,4 @@
+2022-10-23 13:12:36,488 - simple_logger - INFO - info message 9999
+2022-10-23 13:12:36,516 - simple_logger - WARNING - warning message 9999
+2022-10-23 13:12:36,516 - simple_logger - ERROR - error message 9999
+2022-10-23 13:12:36,517 - simple_logger - CRITICAL - critical message 9999
