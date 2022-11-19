@@ -1,7 +1,7 @@
 • Creamos la base de datos 'NewDataBase' desde Compass.
 Accedemos desde la consola con el siguiente comando:
 
-use NewDataBase
+´use NewDataBase´
 
 
 
