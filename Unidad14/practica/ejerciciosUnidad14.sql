@@ -1,3 +1,6 @@
+-- use SQL_DML
+-- Base de datos en uso.
+
 -- Listar los nombres de los proveedores cuya ciudad contenga la cadena de texto “Ramos”.
 
 SELECT Nombre
@@ -41,6 +44,8 @@ where p.Ciudad ='Ramos Mejía'
 /* Listar los proveedores y materiales que provee. 
 La lista resultante debe incluir a aquellos proveedores que no proveen ningún material.*/
 
+Select * from Proveedor
+inner Join Material on Proveedor.CodProv = Material.CodMat
 
 
 /* Listar los artículos que cuesten más de $30 o que estén compuestos por el material 2.*/

@@ -1,5 +1,0 @@
-22-Oct-22  10:14:14 - ERROR - 40 - ¡Encontramos una excepcion!
-Traceback (most recent call last):
-  File "c:\Data Engineer-Prisma\Unidad3\practica\probando\app2.py", line 15, in <module>
-    a/b
-ZeroDivisionError: division by zero

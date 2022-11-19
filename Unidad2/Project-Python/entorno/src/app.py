@@ -1,8 +1,8 @@
-#from decouple import config                        #importamos desde Decouple, un objeto llamado “config”.
-#print(config('POSTGRESQL_HOST'))                   #imprimimos cada uno de los valores de las 4 propiedades indicadas para el objeto config.
-#print(config('POSTGRESQL_PORT'))
-#print(config('POSTGRESQL_USER'))
-#print(config('POSTGRESQL_PWD'))
+from decouple import config                        #importamos desde Decouple, un objeto llamado “config”.
+print(config('POSTGRESQL_HOST'))                   #imprimimos cada uno de los valores de las 4 propiedades indicadas para el objeto config.
+print(config('POSTGRESQL_PORT'))
+print(config('POSTGRESQL_USER'))
+print(config('POSTGRESQL_PWD'))
 
 
 

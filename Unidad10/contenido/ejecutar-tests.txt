@@ -1,7 +1,0 @@
-Para ejecutar los test unitarios no hay que ejecutar la aplicacion
-en sí, sino los test con este comando.
-
-
-python -m unittest (nombre_del_archivo).py
-
-ejemplo: python -m unittest test_calculadora.py

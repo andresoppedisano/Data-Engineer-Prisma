@@ -12,7 +12,7 @@ logger = logging.getLogger('simple_logger')
 logger.setLevel(logging.DEBUG)
 
 # Creamos un RotatingFileHandler y seteamos el nivel de severidad en Debug
-handler = RotatingFileHandler('my_log.log', maxBytes=2000, backupCount=50)
+handler = RotatingFileHandler('my_log.log', maxBytes=100, backupCount=200)
 handler.setLevel(logging.DEBUG)
 
 # Creamos un objeto de formato
@@ -25,7 +25,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Generamos los logs
-for i in range(10000):
+for i in range(500):
 
     logger.debug('debug message {}'.format(i))
     
