@@ -16,7 +16,8 @@ Luego, desarrollar un test utilizando Unittest con tres pruebas para
 cada una de las funciones.
 Estructurar el proyecto de la siguiente manera:
 
-Calculadora
+●Calculadora.
+
 |------- funciones.py
 |------- test_calculadora.py
 
