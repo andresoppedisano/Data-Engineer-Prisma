@@ -13,14 +13,14 @@ Se visualiza las colecciones creadas ('Oficio' y 'Persona').
 
 
 • Insertamos un documento:
-Insertamos los datos de una persona.
+Los datos de una persona.
 
         `db.Persona.insertOne({_id:1,Nombre:'Sergio',Apellido:'Rodríguez'})`
 
 
 
 • Insertamos varios documentos con un solo comando:
-Insertamos los datos de dos personas más.
+Los datos de dos personas más.
 
         `db.Persona.insertMany([{id:2,Nombre:'José',Apellido:'Guevara'},{id:3,Nombre:'Ronaldo',Apellido:'Martínez'}])`
 
