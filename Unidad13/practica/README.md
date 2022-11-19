@@ -25,3 +25,5 @@ datos.
 
 8- Restaurar la base de datos desde el script generado en el
 punto 6.
+
+•Backup para generar la tabla en base de datos: script.sql
