@@ -15,5 +15,6 @@ Utilizando los conceptos aprendidos en el módulo 19- Datos con pandas, se pide 
 
   Group By sobre un campo y utilizando sum().
   Realizar un Melt.
+  
 ● Realizar un gráfico de Barras con el primer dataframe.
 
