@@ -1,14 +1,14 @@
 • Creamos la base de datos 'NewDataBase' desde Compass.
 Accedemos desde la consola con el siguiente comando:
 
-`use NewDataBase`
+    `use NewDataBase`
 
 
 
 • Procedo a crear 2 colecciones y las listamos con el siguiente comando:
 Se visualiza las colecciones creadas ('Oficio' y 'Persona').
 
-`Show collections`
+    `Show collections`
 
 
 
