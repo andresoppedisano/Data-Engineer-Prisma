@@ -6,21 +6,21 @@ Accedemos desde la consola con el siguiente comando:
 
 
 • Procedo a crear 2 colecciones y las listamos con el siguiente comando:
-Se visualiza las colecciones creadas ('Oficio' y 'Persona')
+Se visualiza las colecciones creadas ('Oficio' y 'Persona').
 
 `Show collections`
 
 
 
 • Insertamos un documento:
-Insertamos los datos de una persona
+Insertamos los datos de una persona.
 
 `db.Persona.insertOne({_id:1,Nombre:'Sergio',Apellido:'Rodríguez'})`
 
 
 
 • Insertamos varios documentos con un solo comando:
-Insertamos los datos de dos personas más
+Insertamos los datos de dos personas más.
 
 `db.Persona.insertMany([{id:2,Nombre:'José',Apellido:'Guevara'},{id:3,Nombre:'Ronaldo',Apellido:'Martínez'}])`
 
@@ -33,14 +33,14 @@ Insertamos los datos de dos personas más
 
 
 • Realizar un update en un registro:
-Cambiamos el nombre del primer registro 'Sergio' a 'Martín'
+Cambiamos el nombre del primer registro 'Sergio' a 'Martín'.
 
 `db.Persona.updateOne({_id:1}, {$set:{Nombre:'Martín'} } )`
 
 
 
 • Listar un documento específico dentro de la colección:
-Con el siguiente comando vamos a listar puntualmente el registro que fué actualizado en el paso anterior para corroborar los cambios
+Con el siguiente comando vamos a listar puntualmente el registro que fué actualizado en el paso anterior para corroborar los cambios.
 
 `db.Persona.find({_id:{$gte:1} } )`
 
