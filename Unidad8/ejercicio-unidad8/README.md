@@ -13,4 +13,4 @@ anteriores.
 2. Entorno virtual creado: Flake8
 3. Activar entorno virtual y luego ejecutar el comando:
 
-    flake8 main.py
+        flake8 main.py
