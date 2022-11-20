@@ -1,0 +1,28 @@
+# Ejercicio - Unidad 8
+
+"""Crear un entorno virtual e instalar Flake 8.
+Utilizar Flake8 para validar el código creado en las prácticas
+anteriores.
+
+Practica tomada de la unidad 6 para aplicar Flake8.
+"""
+
+
+def contador():
+
+    # Inicializamos la lista con sus respectivos valores
+    lista_inicial = ['perro', 'elefante', 'dragón']
+
+    # Se cuenta la cantidad de caracteres de cada palabra
+    caracteres0 = len(lista_inicial[0])
+    caracteres1 = len(lista_inicial[1])
+    caracteres2 = len(lista_inicial[2])
+
+    # Formulamos la lista retorno
+    lista_retorno = [caracteres0, caracteres1, caracteres2]
+
+    # Se imprime en pantalla dicha lista
+    print(lista_retorno)
+
+
+contador()
