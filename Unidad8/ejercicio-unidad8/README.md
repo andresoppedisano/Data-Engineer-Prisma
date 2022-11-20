@@ -8,8 +8,9 @@ en Python - PEP8 y Flake8, resolver el siguiente ejercicio.
 ● Utilizar Flake8 para validar el código creado en las prácticas
 anteriores.
 
--Practica tomada de la unidad 6 para aplicar Flake8.
--Entorno virtual creado: Flake8
--Activar entorno virtual y luego ejecutar el comando:
+
+1. Practica tomada de la unidad 6 para aplicar Flake8.
+2. Entorno virtual creado: Flake8
+3. Activar entorno virtual y luego ejecutar el comando:
 
     flake8 main.py
