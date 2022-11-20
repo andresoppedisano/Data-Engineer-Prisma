@@ -4,6 +4,10 @@
 
 3. Crear dos ambientes virtuales (Ambiente1 y Ambiente2)
 
+        virtualenv Ambiente1
+        
+        virtualenv Ambiente2
+
 
 4. Activar ambiente 1, instalar la última versión de pandas y matplotlib y desactivar el ambiente.
 
