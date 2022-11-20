@@ -11,6 +11,6 @@ anteriores.
 
 1. Practica tomada de la unidad 6 para aplicar Flake8.
 2. Entorno virtual creado: Flake8
-3. Activar entorno virtual y luego ejecutar el comando:
+3. Activar entorno virtual y luego situado en la carpeta 'ejercicio-unidad8' ejecutar el siguiente comando:
 
         flake8 main.py
