@@ -13,8 +13,8 @@ Utilizando los conceptos aprendidos en el módulo 19- Datos con pandas, se pide 
 
 ● Realizar las siguientes acciones sobre el segundo dataframe:
 
-  Group By sobre un campo y utilizando sum().
-  Realizar un Melt.
+  1. Group By sobre un campo y utilizando sum().
+  2. Realizar un Melt.
   
 ● Realizar un gráfico de Barras con el primer dataframe.
 
