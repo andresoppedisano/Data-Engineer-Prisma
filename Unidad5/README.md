@@ -12,6 +12,6 @@ DAGs de Airflow.
 A partir del DAG propuesto, completar las partes comentadas, a fin de
 agregar un logger personalizado que realice las siguientes tareas:
 1) Indicarnos si la descarga del dataset se y procesamiento se realizó
-correctamente
+correctamente.
 2) Indicarnos si la tarea anterior fue fallida.
 3) Mostrar el logging por consola y también guardarlo en un archivo.
